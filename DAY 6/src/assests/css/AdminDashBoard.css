@@ -1,0 +1,85 @@
+.admin-dashboard {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px; /* Width of the sidebar */
+    background-color: #333;
+    color: #fff;
+    padding: 70px;
+  }
+  
+  .siderClass {
+    width: 250px; /* Width of the sidebar */
+    height: 669px; /* Fill the entire height of the container */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: white;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 24px;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    margin-left: -40px; /* Width of the sidebar */
+    width: calc(100% - 200px); /* Adjust the content width */
+    height: 100px;
+    background-color: rgba(197, 222, 248, 0.9);
+    overflow: hidden;
+    border-radius: 0;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adjust the padding */
+    z-index: 2; /* Ensure it's above the sidebar */
+  }
+  
+  .header-info {
+    margin-top: 10px;
+  }
+  
+  .welcome {
+    font-size: larger;
+    font-weight: 600;
+  }
+  .ant-layout-sider-trigger{
+    width: 300px;
+    left: 0px;
+    top: 590px;
+  }
+  .logout-button {
+    position: absolute; /* Position it relative to the header */
+    top: 15px; /* Adjust the top position */
+    right: 15px; /* Adjust the right position */
+    border-radius: 12px;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-icon {
+    margin-left: 5px; /* Adjust the margin */
+  }
+  
+  .container-below-sidebar {
+    left: 90px;
+  }
+  
+  /* Add any other styles for specific elements as needed */
