@@ -1,0 +1,21 @@
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the video behind other content */
+  }
+  
+  .background-video video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .custom-button {
+    position: absolute;
+    left: 55%;
+    bottom: -650px;
+    transform: translate(-50%, -50%);
+  }
+    
