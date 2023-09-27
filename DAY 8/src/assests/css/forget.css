@@ -1,0 +1,21 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  min-height: 90vh;
+  width: 135vh; /* This ensures the form is centered vertically on the entire viewport height */
+  margin-top: -100px;
+}
+.login-form {
+  background-color: #f0f0f0;
+  padding: 100px;
+  border: 1px solid #ccc; /* Add a 1px solid border with a color of your choice */
+  border-radius: 5px;
+}
+.login-form-header {
+  background-color: #d96262;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

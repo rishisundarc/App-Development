@@ -1,0 +1,45 @@
+/* privacy-policy.css */
+body {
+    overflow:auto;
+}
+/* Style the container for the Privacy Policy content */
+.privacy-policy {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Style the page title */
+  .privacy-policy h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style the paragraphs of text */
+  .privacy-policy p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  /* Style links within the Privacy Policy content */
+  .privacy-policy a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* Style the footer section */
+  .privacy-policy .footer {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #888;
+  }
+  
+  /* Additional styling can be added based on your design preferences */
+  

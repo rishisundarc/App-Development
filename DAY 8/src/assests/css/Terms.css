@@ -1,0 +1,9 @@
+.fixed-footer1 {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #007bff;
+  color: #ffff;
+  /* Add other styling as needed */
+}

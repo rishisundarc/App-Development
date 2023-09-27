@@ -1,0 +1,71 @@
+/* feedback.css */
+
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .header {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .welcome {
+    margin-right: 20px;
+  }
+  
+  .logout-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #1890ff;
+  }
+  
+  .logout-button:hover {
+    text-decoration: underline;
+  }
+  
+  .carousel-container {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  
+  /* Customize Carousel styles if needed */
+  .ant-carousel {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .ant-carousel .slick-slide {
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add any other styles for specific elements as needed */

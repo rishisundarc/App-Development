@@ -1,0 +1,10 @@
+/* Customize.css */
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Fill the entire height of the Content section */
+    background: black;
+    color: white; /* Adjust text color as needed */
+  }
+  
