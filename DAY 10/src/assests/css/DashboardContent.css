@@ -1,0 +1,32 @@
+body{
+  overflow: hidden;
+}
+.logout {
+  color: #fff; 
+  margin-left: 1400px;
+  top: -70px;
+  position: relative;
+}
+.logout:hover{
+  color: #ff1900; 
+}
+.perfume{
+  width: 50px;
+  height: 50px;
+}
+.user{
+  width: 50px;
+  height: 50px;
+}
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #007bff;
+  color: #ffff;
+  /* Add other styling as needed */
+}
+.demo-logo-vertical{
+  margin-top: 10px;
+}
